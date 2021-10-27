@@ -1,12 +1,12 @@
 # File Open and Read
 
-"""readfile = open("facts.txt", "r")
+readfile = open("facts.txt", "r")
 content = readfile.readlines()
 print(content)
 
 for i in content:
     print(i)
-readfile.close()"""
+readfile.close()
 
 # Writing to a File
 

@@ -1,4 +1,4 @@
 from debug import debug_variable
 
-info1 = "hello"
+info = "hello"
 debug_variable("info", info)
