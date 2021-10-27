@@ -1,0 +1,2 @@
+Today  27.10.2021 , and time is 13:56. debug.py
+Today  27.10.2021 , and time is 13:56. file name is  debug.py
