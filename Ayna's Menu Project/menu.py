@@ -47,11 +47,11 @@ class Menu:
    
     def calculate_bill(self, purchased_items):
         bill = 0
-        for purchased_item in self.menu:
+        for purchased_item in self.menus:
 
             # need to check item is available or not
-            if purchased_item in self.menu:
-                bill = bill +  self.menu[purchased_item] # how to get value a prticular item from dictionary
+            if purchased_item in self.menus:
+                bill = bill +  self.menus[purchased_item] # how to get value a prticular item from dictionary
             else:
                 return 'item is not availble'
                
@@ -108,14 +108,14 @@ asian_foods = Bussiness('origional Asian food', frenchises)
 # testing for string representation print(breakfast_menu)
 # Testing for Calculation bill function
 price = breakfast_menu.calculate_bill(['fried_eggs', 'tea', 'puro'])
-# print('The price is:'+' ' + str(price)+ 'Thank you!')
+print('The price is:'+' ' + str(price)+ 'Thank you!')
 
 # test string represntation
-#print(central_store)
+print(central_store)
 
 # test availble_items() menu
 items = central_store.availble_items(700)
-#print(items)
+print(items)
 
 
 
