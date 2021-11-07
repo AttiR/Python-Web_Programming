@@ -57,6 +57,16 @@ isabelles_ices = Store()
 alternative_rocks.store_name = "Alternative Rocks"
 isabelles_ices.store_name = "Isabelle's Ices"
 
-# Attribute Functions
+class Sum:
+  def __init__(self, num1, num2):
+      self.num1=num1
+      self.num2=num2
+
+  def add(self):
+    return self.num1 +  self.num2
+
+result = Sum(2,3)  
+print(result.add())
+
 
 
